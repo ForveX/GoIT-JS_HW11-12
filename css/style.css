@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fonts/MyriadProSemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Myriaditalic';
+    src: url('../fonts/MyriadProItalic.ttf');
+}
+
+@font-face {
+    font-family: 'MyriadProSemiBold';
+    src: url('../fonts/MyriadPro.ttf');
+}
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.bordered {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid;
+    border-color: darkgray;
+}
+
+.othercnt, .bordered h3 {
+    font-family: 'MyriadPro', sans-serif;
+}
+
+.targets {
+    margin-left: 23px;
+    margin-top: -1px;
+}
+
+.carousel-arrow-right {
+    margin-bottom: 35px;
+  }
+
+
+  .descr {
+      font-size: 14px;
+      font-family: 'MyriadPro', sans-serif;
+  }
+
+  .descr h3 {
+      font-size: 20px;
+      font-family: 'MyriadProSemiBold', sans-serif;
+  }
+
+  .descr ul {
+      font-size: 12px;
+      padding: 6px;
+      padding-bottom: 7px;
+  }
+
+  .descr li {
+      padding-left: 9px;
+      padding-top: 3px;
+  }
+
+  .ypage {
+    font-family: 'Myriaditalic', sans-serif;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    margin-left: 33px;
+}
+
+.othercnt {
+    margin-top: -3px;
+}
+
+.othercnt h1{
+    font-family: 'MyriadProSemiBold', sans-serif;
+}
+
+.descr h1{
+    font-family: 'MyriadProSemiBold', sans-serif;
+}
+
+.descr{
+    font-size: 14px;
+    font-family: 'MyriadPro', sans-serif;
+}
+
+.exp {
+  font-family: 'Myriaditalic', sans-serif;
+  padding-top: 10px;
+}
